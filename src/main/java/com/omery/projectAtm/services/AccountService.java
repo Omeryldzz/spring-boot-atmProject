@@ -11,6 +11,10 @@ public interface AccountService {
     boolean isExists(Long id);
     void deleteAccount(Long id);
     List<AccountEntity> findByUserId(Long id);
-    Optional<AccountEntity> findOneAcc(Long id);
+    AccountEntity findOneAcc(Long id,Long acc_id);
+    AccountEntity partialUpdate(Long id, AccountEntity accountEntity);
+    void delete(Long id);
+
+
 
 }

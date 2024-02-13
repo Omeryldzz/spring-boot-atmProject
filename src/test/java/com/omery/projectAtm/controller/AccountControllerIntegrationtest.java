@@ -19,6 +19,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
+
 @SpringBootTest
 @ExtendWith(SpringExtension.class)
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_EACH_TEST_METHOD)
@@ -42,7 +43,9 @@ public class AccountControllerIntegrationtest {
 
     @Test
     public void testThatGetUserReturnsWhenAccountExist() throws Exception {
-        AccountEntity testAccountEntityA = TestDataUtil.createTestAccountEntityA(null);
+        UserEntity testUserEntityB = TestDataUtil.createTestUserEntityB();
+        userService.save(testUserEntityB);
+        AccountEntity testAccountEntityA = TestDataUtil.createTestAccountEntityA(testUserEntityB);
         accountService.save(testAccountEntityA);
         String accountJson = objectMapper.writeValueAsString(testAccountEntityA);
 
@@ -58,8 +61,13 @@ public class AccountControllerIntegrationtest {
     public void testThatGetAccountsReturnsWhenUserExist() throws Exception {
         UserEntity testUserEntityB = TestDataUtil.createTestUserEntityB();
         userService.save(testUserEntityB);
+        UserEntity testUserEntityA = TestDataUtil.createTestUserEntityA();
+        userService.save(testUserEntityA);
         AccountEntity testAccountEntityA = TestDataUtil.createTestAccountEntityA(testUserEntityB);
+        AccountEntity testAccountEntityB = TestDataUtil.createTestAccountEntityB(testUserEntityA);
         accountService.save(testAccountEntityA);
+        accountService.save(testAccountEntityB);
+
 
         mockMvc.perform(
                 MockMvcRequestBuilders.get("/users/2/accounts")
@@ -87,5 +95,7 @@ public class AccountControllerIntegrationtest {
                 MockMvcResultMatchers.jsonPath("$.totalCredit").value(0)
         );
     }
+
+
 }
 

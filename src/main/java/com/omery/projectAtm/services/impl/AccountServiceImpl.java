@@ -45,8 +45,27 @@ public class AccountServiceImpl implements AccountService {
                 .collect(Collectors.toList());
     }
     @Override
-    public Optional<AccountEntity> findOneAcc(Long id) {
-        return accountRepository.findById(id);
+    public AccountEntity findOneAcc(Long id,Long acc_id) {
+
+        List<AccountEntity> accounts = accountRepository.getAccounts(id);
+        AccountEntity acc = accounts.stream()
+                .filter(account -> acc_id.equals(account.getAcc_id()))
+                .findAny()
+                .orElse(null);
+        return acc;
+    }
+    @Override
+    public AccountEntity partialUpdate(Long id, AccountEntity accountEntity) {
+
+        accountEntity.setAcc_id(id);
+        return accountRepository.findById(id).map(existingAcc -> {
+            Optional.ofNullable(accountEntity.getTotalCredit()).ifPresent(existingAcc::setTotalCredit);
+            return accountRepository.save(existingAcc);
+        }).orElseThrow(() -> new RuntimeException("User does not exist"));
+    }
+    @Override
+    public void delete(Long id){
+       accountRepository.deleteById(id);
     }
 
 

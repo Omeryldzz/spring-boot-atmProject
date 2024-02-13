@@ -49,22 +49,22 @@ public class UserControllerIntegrationTest {
                 MockMvcResultMatchers.status().isCreated()
         );
     }
-        @Test
-        public void testThatListUsersReturnsListOfAuthors() throws Exception {
-            UserEntity testAuthorEntityA = TestDataUtil.createTestUserEntityA();
-            userService.save(testAuthorEntityA);
+    @Test
+    public void testThatListUsersReturnsListOfAuthors() throws Exception {
+        UserEntity testAuthorEntityA = TestDataUtil.createTestUserEntityA();
+        userService.save(testAuthorEntityA);
 
-            mockMvc.perform(
-                    MockMvcRequestBuilders.get("/users")
-                            .contentType(MediaType.APPLICATION_JSON)
-            ).andExpect(
-                    MockMvcResultMatchers.jsonPath("$[0].id").isNumber()
-            ).andExpect(
-                    MockMvcResultMatchers.jsonPath("$[0].firstName").value("Abigail")
-            ).andExpect(
-                    MockMvcResultMatchers.jsonPath("$[0].lastName").value("Rose")
-            );
-        }
+        mockMvc.perform(
+                MockMvcRequestBuilders.get("/users")
+                        .contentType(MediaType.APPLICATION_JSON)
+        ).andExpect(
+                MockMvcResultMatchers.jsonPath("$[0].id").isNumber()
+        ).andExpect(
+                MockMvcResultMatchers.jsonPath("$[0].firstName").value("Abigail")
+        ).andExpect(
+                MockMvcResultMatchers.jsonPath("$[0].lastName").value("Rose")
+        );
+    }
     @Test
     public void testThatGetUserReturnsWhenUserExist() throws Exception {
         UserEntity testUserEntityA = TestDataUtil.createTestUserEntityA();

@@ -54,6 +54,13 @@ public final class TestDataUtil {
                 .userEntity(user)
                 .build();
     }
+    public  static AccountEntity createTestAccountEntityB(UserEntity user){
+        return AccountEntity.builder()
+                .acc_id(56789L)
+                .totalCredit(1110L)
+                .userEntity(user)
+                .build();
+    }
     public  static AccountDto createTestAccountDtoA(UserDto user){
         return AccountDto.builder()
                 .acc_id(12345L)
