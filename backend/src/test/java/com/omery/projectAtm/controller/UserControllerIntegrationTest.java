@@ -66,9 +66,9 @@ public class UserControllerIntegrationTest {
             ).andExpect(
                     MockMvcResultMatchers.jsonPath("$[0].id").isNumber()
             ).andExpect(
-                    MockMvcResultMatchers.jsonPath("$[0].firstName").value("Abigail")
+                    MockMvcResultMatchers.jsonPath("$[0].firstName").value("Ada")
             ).andExpect(
-                    MockMvcResultMatchers.jsonPath("$[0].lastName").value("Rose")
+                    MockMvcResultMatchers.jsonPath("$[0].lastName").value("Yüce")
             );
         }
     @Test

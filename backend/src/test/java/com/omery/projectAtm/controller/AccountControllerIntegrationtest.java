@@ -45,12 +45,13 @@ public class AccountControllerIntegrationtest {
 
     @Test
     public void testThatGetUserReturnsWhenAccountExist() throws Exception {
-        AccountEntity testAccountEntityA = TestDataUtil.createTestAccountEntityA(null);
-        accountService.save(testAccountEntityA);
+        UserEntity userEntity = TestDataUtil.createTestUserEntityB();
+        AccountEntity testAccountEntityA = TestDataUtil.createTestAccountEntityA(userEntity);
+        accountService.save(testAccountEntityA,testAccountEntityA.getUserEntity().getId());
         String accountJson = objectMapper.writeValueAsString(testAccountEntityA);
 
         mockMvc.perform(
-                MockMvcRequestBuilders.post("/users/1/accounts")
+                MockMvcRequestBuilders.post("/users/2/accounts/new")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(accountJson)
         ).andExpect(
@@ -62,13 +63,13 @@ public class AccountControllerIntegrationtest {
         UserEntity testUserEntityB = TestDataUtil.createTestUserEntityB();
         userService.save(testUserEntityB);
         AccountEntity testAccountEntityA = TestDataUtil.createTestAccountEntityA(testUserEntityB);
-        accountService.save(testAccountEntityA);
+        accountService.save(testAccountEntityA,testAccountEntityA.getUserEntity().getId());
 
         mockMvc.perform(
                 MockMvcRequestBuilders.get("/users/2/accounts")
                         .contentType(MediaType.APPLICATION_JSON)
         ).andExpect(
-                MockMvcResultMatchers.jsonPath("$[0].acc_id").value(12345)
+                MockMvcResultMatchers.jsonPath("$[0].acc_id").value(2)
         ).andExpect(
                 MockMvcResultMatchers.jsonPath("$[0].totalCredit").value(0)
         );
@@ -79,13 +80,13 @@ public class AccountControllerIntegrationtest {
         UserEntity testUserEntityB = TestDataUtil.createTestUserEntityB();
         userService.save(testUserEntityB);
         AccountEntity testAccountEntityA = TestDataUtil.createTestAccountEntityA(testUserEntityB);
-        accountService.save(testAccountEntityA);
+        accountService.save(testAccountEntityA,testAccountEntityA.getUserEntity().getId());
 
         mockMvc.perform(
-                MockMvcRequestBuilders.get("/users/2/accounts/12345")
+                MockMvcRequestBuilders.get("/users/2/accounts/2")
                         .contentType(MediaType.APPLICATION_JSON)
         ).andExpect(
-                MockMvcResultMatchers.jsonPath("$.acc_id").value(12345)
+                MockMvcResultMatchers.jsonPath("$.acc_id").value(2)
         ).andExpect(
                 MockMvcResultMatchers.jsonPath("$.totalCredit").value(0)
         );
