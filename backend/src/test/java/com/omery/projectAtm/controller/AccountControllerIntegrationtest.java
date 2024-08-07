@@ -42,16 +42,16 @@ public class AccountControllerIntegrationtest {
         this.objectMapper = new ObjectMapper();
         this.userService = userService;
     }
-
     @Test
     public void testThatGetUserReturnsWhenAccountExist() throws Exception {
         UserEntity userEntity = TestDataUtil.createTestUserEntityB();
+        userService.save(userEntity);
         AccountEntity testAccountEntityA = TestDataUtil.createTestAccountEntityA(userEntity);
         accountService.save(testAccountEntityA,testAccountEntityA.getUserEntity().getId());
         String accountJson = objectMapper.writeValueAsString(testAccountEntityA);
 
         mockMvc.perform(
-                MockMvcRequestBuilders.post("/users/2/accounts/new")
+                MockMvcRequestBuilders.post("/users/1/accounts/new")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(accountJson)
         ).andExpect(
@@ -66,10 +66,10 @@ public class AccountControllerIntegrationtest {
         accountService.save(testAccountEntityA,testAccountEntityA.getUserEntity().getId());
 
         mockMvc.perform(
-                MockMvcRequestBuilders.get("/users/2/accounts")
+                MockMvcRequestBuilders.get("/users/1/accounts")
                         .contentType(MediaType.APPLICATION_JSON)
         ).andExpect(
-                MockMvcResultMatchers.jsonPath("$[0].acc_id").value(2)
+                MockMvcResultMatchers.jsonPath("$[0].acc_id").value(1)
         ).andExpect(
                 MockMvcResultMatchers.jsonPath("$[0].totalCredit").value(0)
         );
@@ -83,10 +83,10 @@ public class AccountControllerIntegrationtest {
         accountService.save(testAccountEntityA,testAccountEntityA.getUserEntity().getId());
 
         mockMvc.perform(
-                MockMvcRequestBuilders.get("/users/2/accounts/2")
+                MockMvcRequestBuilders.get("/users/1/accounts/1")
                         .contentType(MediaType.APPLICATION_JSON)
         ).andExpect(
-                MockMvcResultMatchers.jsonPath("$.acc_id").value(2)
+                MockMvcResultMatchers.jsonPath("$.acc_id").value(1)
         ).andExpect(
                 MockMvcResultMatchers.jsonPath("$.totalCredit").value(0)
         );

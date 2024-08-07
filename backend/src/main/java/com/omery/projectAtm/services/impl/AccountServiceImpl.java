@@ -24,11 +24,18 @@ public class AccountServiceImpl implements AccountService {
         this.userRepository = userRepository;}
 
     @Override
-    public AccountEntity save(AccountEntity accountEntity,Long id)
-    {
-        userRepository.findById(id).ifPresent(userEntity -> accountEntity.setUserEntity(userEntity));
+    public AccountEntity save(AccountEntity accountEntity, Long userId) {
+        // Find the UserEntity by the provided userId
+        UserEntity userEntity = userRepository.findById(userId)
+                .orElseThrow(() -> new RuntimeException("User with id " + userId + " not found"));
+
+        // Set the found UserEntity to the accountEntity
+        accountEntity.setUserEntity(userEntity);
+
+        // Save the accountEntity and return it
         return accountRepository.save(accountEntity);
     }
+
 
     @Override
     public boolean isExists(Long id) {
