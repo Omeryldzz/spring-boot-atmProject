@@ -88,6 +88,29 @@ public class UserControllerIntegrationTest {
         );
     }
     @Test
+    public void testThatDeleteUserRemovesUser() throws Exception {
+        // Arrange: Create and save a test user
+        UserEntity testUserEntityA = TestDataUtil.createTestUserEntityA();
+        userService.save(testUserEntityA);
+
+        // Act: Delete the user by ID
+        mockMvc.perform(
+                MockMvcRequestBuilders.delete("/users/" + testUserEntityA.getId())
+                        .contentType(MediaType.APPLICATION_JSON)
+        ).andExpect(
+                MockMvcResultMatchers.status().isNoContent() // Assuming your delete returns a 204 No Content status
+        );
+
+        // Assert: Try to retrieve the user and expect a 404 Not Found status
+        mockMvc.perform(
+                MockMvcRequestBuilders.get("/users/" + testUserEntityA.getId())
+                        .contentType(MediaType.APPLICATION_JSON)
+        ).andExpect(
+                MockMvcResultMatchers.status().isNotFound()
+        );
+    }
+
+    @Test
     public void testThatGetUserReturnsHttpStatus404WhenNoAuthorExists() throws Exception {
         mockMvc.perform(
                 MockMvcRequestBuilders.get("/users/99")

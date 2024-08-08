@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import api from '../api';
+import '../static/UserForm.css';
+
 
 const UserForm = ({ user }) => {
   const [formData, setFormData] = useState(user || { firstName: '', lastName: '', email: '', password: '' });

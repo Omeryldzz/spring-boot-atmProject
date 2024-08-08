@@ -59,6 +59,22 @@ public class AccountControllerIntegrationtest {
         );
     }
     @Test
+    public void testThatUserDeleteWithAccount() throws Exception{
+        UserEntity testUserEntityB = TestDataUtil.createTestUserEntityB();
+        userService.save(testUserEntityB);
+        AccountEntity testAccountEntityA = TestDataUtil.createTestAccountEntityA(testUserEntityB);
+        accountService.save(testAccountEntityA,testAccountEntityA.getUserEntity().getId());
+        userService.delete(testUserEntityB.getId());
+        // Assert: Try to retrieve the user and expect a 404 Not Found status
+        mockMvc.perform(
+                MockMvcRequestBuilders.get("/users/" + testUserEntityB.getId() + "/accounts/" +
+                                testAccountEntityA.getAcc_id())
+                        .contentType(MediaType.APPLICATION_JSON)
+        ).andExpect(
+                MockMvcResultMatchers.status().isNotFound()
+        );
+    }
+    @Test
     public void testThatGetAccountsReturnsWhenUserExist() throws Exception {
         UserEntity testUserEntityB = TestDataUtil.createTestUserEntityB();
         userService.save(testUserEntityB);

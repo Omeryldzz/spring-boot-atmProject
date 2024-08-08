@@ -1,7 +1,10 @@
 package com.omery.projectAtm.services.impl;
 
 import com.omery.projectAtm.domain.entities.UserEntity;
+import com.omery.projectAtm.repositories.AccountRepository;
 import com.omery.projectAtm.repositories.UserRepository;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import com.omery.projectAtm.services.UserService;
 
@@ -13,9 +16,12 @@ import java.util.stream.StreamSupport;
 @Service
 public class UserServiceImpl implements UserService {
 
+    private AccountRepository accountRepository;
+
     private UserRepository userRepository;
 
-    public UserServiceImpl(UserRepository userRepository) {
+    public UserServiceImpl(UserRepository userRepository,AccountRepository accountRepository) {
+        this.accountRepository = accountRepository;
         this.userRepository = userRepository;
     }
 
@@ -55,5 +61,8 @@ public class UserServiceImpl implements UserService {
         }).orElseThrow(() -> new RuntimeException("User does not exist"));
     }
     @Override
-    public void delete(Long id){userRepository.deleteById(id);}
+    public void delete(Long id){
+        if(!accountRepository.getAccounts(id).isEmpty())
+            accountRepository.deleteAccountEntitiesByUserId(id);
+        userRepository.deleteById(id);}
 }

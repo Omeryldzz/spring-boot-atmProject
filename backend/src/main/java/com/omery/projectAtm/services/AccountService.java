@@ -13,4 +13,6 @@ public interface AccountService {
     List<AccountEntity> findByUserId(Long id);
     Optional<AccountEntity> findOneAcc(Long id);
 
+    void deleteAccountsByUserId(Long userId);
+
 }

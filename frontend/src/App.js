@@ -6,13 +6,17 @@ import UserForm from './components/UserForm';
 import AccountList from './components/AccountList';
 import AccountForm from './components/AccountForm';
 import AccountDetail from './components/AccountDetail';
+import Home from './components/Home'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AppNavbar from './components/AppNavbar';
 
 function App() {
   return (
+    <div>
+      <AppNavbar />
     <div className="container mt-4">
-      <h1 className="mb-4">ATM Application</h1>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/users" element={<UserList />} />
         <Route path="/users/new" element={<UserForm />} />
         <Route path="/users/:id" element={<UserDetail />} />
@@ -22,6 +26,7 @@ function App() {
         <Route path="/users/:id/accounts/:acc_id" element={<AccountDetail />} />
       </Routes>
     </div>
+  </div>
   );
 }
 

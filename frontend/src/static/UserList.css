@@ -1,0 +1,22 @@
+.user-list-container {
+    margin-top: 20px;
+  }
+  
+  .user-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    margin-bottom: 20px;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .btn {
+    margin-right: 5px;
+  }
+  

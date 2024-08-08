@@ -5,6 +5,7 @@ import com.omery.projectAtm.domain.entities.UserEntity;
 import com.omery.projectAtm.repositories.AccountRepository;
 import com.omery.projectAtm.repositories.UserRepository;
 import com.omery.projectAtm.services.AccountService;
+import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -36,7 +37,6 @@ public class AccountServiceImpl implements AccountService {
         return accountRepository.save(accountEntity);
     }
 
-
     @Override
     public boolean isExists(Long id) {
         return accountRepository.existsById(id);
@@ -59,5 +59,9 @@ public class AccountServiceImpl implements AccountService {
     }
 
 
+
+    public void deleteAccountsByUserId(Long userId) {
+        accountRepository.deleteAccountEntitiesByUserId(userId);
+    }
 
 }

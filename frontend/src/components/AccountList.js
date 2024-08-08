@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import api from '../api';
+import '../static/AccountList.css';
 
 const AccountList = () => {
   const { id } = useParams();

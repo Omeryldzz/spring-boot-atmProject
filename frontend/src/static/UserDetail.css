@@ -1,0 +1,11 @@
+.user-detail-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 500px;
+  }
+  

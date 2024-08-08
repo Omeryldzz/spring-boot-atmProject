@@ -3,6 +3,7 @@ package com.omery.projectAtm.controller;
 import com.omery.projectAtm.domain.dto.UserDto;
 import com.omery.projectAtm.domain.entities.UserEntity;
 import com.omery.projectAtm.mappers.Mapper;
+import com.omery.projectAtm.services.AccountService;
 import com.omery.projectAtm.services.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,13 +16,16 @@ import java.util.stream.Collectors;
 @RestController
 @CrossOrigin("http://localhost:3000")
 public class UserController {
-    private UserService userService;
+    private final UserService userService;
+    private final AccountService accountService;
 
     private Mapper<UserEntity, UserDto> userMapper;
 
-    public UserController(UserService userService, Mapper<UserEntity, UserDto> userMapper) {
+    public UserController(UserService userService, Mapper<UserEntity, UserDto> userMapper,AccountService accountService) {
         this.userService = userService;
         this.userMapper = userMapper;
+        this.accountService = accountService;
+
     }
 
     @PostMapping(path = "/users")
@@ -81,10 +85,23 @@ public class UserController {
     }
 
     @DeleteMapping(path = "/users/{id}")
-    public ResponseEntity deleteUser(@PathVariable("id") Long id) {
-        userService.delete(id);
-        return new ResponseEntity(HttpStatus.NO_CONTENT);
+    public ResponseEntity<Void> deleteUser(@PathVariable("id") Long id) {
+        try {
+            if (userService.isExists(id)) {
+                // Then, delete the user
+                userService.delete(id);
+                return ResponseEntity.noContent().build();
+            } else {
+                return ResponseEntity.notFound().build();
+            }
+        } catch (Exception e) {
+            // Log the error details
+            System.err.println("Error deleting user: " + e.getMessage());
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
+
+
 
 
 
