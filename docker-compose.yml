@@ -47,7 +47,7 @@ services:
     ports:
       - "80:80"  # Expose port 80 for external traffic
     volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf  # Mount your custom Nginx configuration
+      - ./frontend/nginx/nginx.conf:/etc/nginx/nginx.conf  # Mount your custom Nginx configuration
     depends_on:
       - react-app
       - spring-boot-app
