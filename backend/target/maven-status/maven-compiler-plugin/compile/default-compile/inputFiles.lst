@@ -1,0 +1,17 @@
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/mappers/Mapper.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/controller/UserController.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/mappers/impl/UserMapperImpl.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/services/impl/AccountServiceImpl.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/domain/dto/UserDto.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/services/AccountService.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/ProjectAtmApplication.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/repositories/AccountRepository.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/services/UserService.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/mappers/impl/AccountMapperImpl.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/domain/entities/UserEntity.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/repositories/UserRepository.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/controller/AccountController.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/config/MapperConfig.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/services/impl/UserServiceImpl.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/domain/dto/AccountDto.java
+/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/main/java/com/omery/projectAtm/domain/entities/AccountEntity.java
