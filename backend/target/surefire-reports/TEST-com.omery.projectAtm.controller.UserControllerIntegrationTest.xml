@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="2.781" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="2.394" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="TR"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/target/surefire/surefirebooter-20240810012408447_3.jar /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/target/surefire 2024-08-10T01-24-08_392-jvmRun1 surefire-20240810012408447_1tmp surefire_0-20240810012408447_2tmp"/>
+    <property name="sun.java.command" value="/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/target/surefire/surefirebooter-20240810015332733_3.jar /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/target/surefire 2024-08-10T01-53-32_674-jvmRun1 surefire-20240810015332733_1tmp surefire_0-20240810015332733_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/target/test-classes:/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/target/classes:/Users/omeryildiz/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.2.2/spring-boot-starter-data-jpa-3.2.2.jar:/Users/omeryildiz/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.2.2/spring-boot-starter-aop-3.2.2.jar:/Users/omeryildiz/.m2/repository/org/springframework/spring-aop/6.1.3/spring-aop-6.1.3.jar:/Users/omeryildiz/.m2/repository/org/aspectj/aspectjweaver/1.9.21/aspectjweaver-1.9.21.jar:/Users/omeryildiz/.m2/repository/org/hibernate/orm/hibernate-core/6.4.1.Final/hibernate-core-6.4.1.Final.jar:/Users/omeryildiz/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/Users/omeryildiz/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/Users/omeryildiz/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar:/Users/omeryildiz/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/Users/omeryildiz/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/Users/omeryildiz/.m2/repository/com/fasterxml/classmate/1.6.0/classmate-1.6.0.jar:/Users/omeryildiz/.m2/repository/net/bytebuddy/byte-buddy/1.14.11/byte-buddy-1.14.11.jar:/Users/omeryildiz/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.4/jaxb-runtime-4.0.4.jar:/Users/omeryildiz/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.4/jaxb-core-4.0.4.jar:/Users/omeryildiz/.m2/repository/org/eclipse/angus/angus-activation/2.0.1/angus-activation-2.0.1.jar:/Users/omeryildiz/.m2/repository/org/glassfish/jaxb/txw2/4.0.4/txw2-4.0.4.jar:/Users/omeryildiz/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/Users/omeryildiz/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/Users/omeryildiz/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/Users/omeryildiz/.m2/repository/org/springframework/data/spring-data-jpa/3.2.2/spring-data-jpa-3.2.2.jar:/Users/omeryildiz/.m2/repository/org/springframework/data/spring-data-commons/3.2.2/spring-data-commons-3.2.2.jar:/Users/omeryildiz/.m2/repository/org/springframework/spring-orm/6.1.3/spring-orm-6.1.3.jar:/Users/omeryildiz/.m2/repository/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar:/Users/omeryildiz/.m2/repository/org/springframework/spring-tx/6.1.3/spring-tx-6.1.3.jar:/Users/omeryildiz/.m2/repository/org/springframework/spring-beans/6.1.3/spring-beans-6.1.3.jar:/Users/omeryildiz/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/omeryildiz/.m2/repository/org/slf4j/slf4j-api/2.0.11/slf4j-api-2.0.11.jar:/Users/omeryildiz/.m2/repository/org/springframework/spring-aspects/6.1.3/spring-aspects-6.1.3.jar:/Users/omeryildiz/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.2.2/spring-boot-starter-jdbc-3.2.2.jar:/Users/omeryildiz/.m2/repository/org/springframework/boot/spring-boot-starter/3.2.2/spring-boot-starter-3.2.2.jar:/Users/omeryildiz/.m2/repository/org/springframework/boot/spring-boot/3.2.2/spring-boot-3.2.2.jar:/Users/omeryildiz/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.2/spring-boot-autoconfigure-3.2.2.jar:/Users/omeryildiz/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.2.2/spring-boot-starter-logging-3.2.2.jar:/Users/omeryildiz/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar:/Users/omeryildiz/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar:/Users/omeryildiz/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.jar:/Users/omeryildiz/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar:/Users/omeryildiz/.m2/repository/org/slf4j/jul-to-slf4j/2.0.11/jul-to-slf4j-2.0.11.jar:/Users/omeryildiz/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/Users/omeryildiz/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/Users/omeryildiz/.m2/repository/org/springframework/spring-jdbc/6.1.3/spring-jdbc-6.1.3.jar:/Users/omeryildiz/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.2.2/spring-boot-starter-web-3.2.2.jar:/Users/omeryildiz/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.2.2/spring-boot-starter-json-3.2.2.jar:/Users/omeryildiz/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.3/jackson-databind-2.15.3.jar:/Users/omeryildiz/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar:/Users/omeryildiz/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.3/jackson-core-2.15.3.jar:/Users/omeryildiz/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.3/jackson-datatype-jdk8-2.15.3.jar:/Users/omeryildiz/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.3/jackson-datatype-jsr310-2.15.3.jar:/Users/omeryildiz/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.3/jackson-module-parameter-names-2.15.3.jar:/Users/omeryildiz/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.2.2/spring-boot-starter-tomcat-3.2.2.jar:/Users/omeryildiz/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.18/tomcat-embed-core-10.1.18.jar:/Users/omeryildiz/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.18/tomcat-embed-el-10.1.18.jar:/Users/omeryildiz/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.18/tomcat-embed-websocket-10.1.18.jar:/Users/omeryildiz/.m2/repository/org/springframework/spring-web/6.1.3/spring-web-6.1.3.jar:/Users/omeryildiz/.m2/repository/io/micrometer/micrometer-observation/1.12.2/micrometer-observation-1.12.2.jar:/Users/omeryildiz/.m2/repository/io/micrometer/micrometer-commons/1.12.2/micrometer-commons-1.12.2.jar:/Users/omeryildiz/.m2/repository/org/springframework/spring-webmvc/6.1.3/spring-webmvc-6.1.3.jar:/Users/omeryildiz/.m2/repository/org/springframework/spring-expression/6.1.3/spring-expression-6.1.3.jar:/Users/omeryildiz/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.2.2/spring-boot-starter-test-3.2.2.jar:/Users/omeryildiz/.m2/repository/org/springframework/boot/spring-boot-test/3.2.2/spring-boot-test-3.2.2.jar:/Users/omeryildiz/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.2.2/spring-boot-test-autoconfigure-3.2.2.jar:/Users/omeryildiz/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/omeryildiz/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar:/Users/omeryildiz/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/omeryildiz/.m2/repository/net/minidev/json-smart/2.5.0/json-smart-2.5.0.jar:/Users/omeryildiz/.m2/repository/net/minidev/accessors-smart/2.5.0/accessors-smart-2.5.0.jar:/Users/omeryildiz/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/omeryildiz/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/omeryildiz/.m2/repository/org/awaitility/awaitility/4.2.0/awaitility-4.2.0.jar:/Users/omeryildiz/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/omeryildiz/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.1/junit-jupiter-5.10.1.jar:/Users/omeryildiz/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar:/Users/omeryildiz/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/omeryildiz/.m2/repository/org/junit/platform/junit-platform-commons/1.10.1/junit-platform-commons-1.10.1.jar:/Users/omeryildiz/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/omeryildiz/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.1/junit-jupiter-params-5.10.1.jar:/Users/omeryildiz/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.1/junit-jupiter-engine-5.10.1.jar:/Users/omeryildiz/.m2/repository/org/junit/platform/junit-platform-engine/1.10.1/junit-platform-engine-1.10.1.jar:/Users/omeryildiz/.m2/repository/org/mockito/mockito-core/5.7.0/mockito-core-5.7.0.jar:/Users/omeryildiz/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.11/byte-buddy-agent-1.14.11.jar:/Users/omeryildiz/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/omeryildiz/.m2/repository/org/mockito/mockito-junit-jupiter/5.7.0/mockito-junit-jupiter-5.7.0.jar:/Users/omeryildiz/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/omeryildiz/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/omeryildiz/.m2/repository/org/springframework/spring-core/6.1.3/spring-core-6.1.3.jar:/Users/omeryildiz/.m2/repository/org/springframework/spring-jcl/6.1.3/spring-jcl-6.1.3.jar:/Users/omeryildiz/.m2/repository/org/springframework/spring-test/6.1.3/spring-test-6.1.3.jar:/Users/omeryildiz/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/Users/omeryildiz/.m2/repository/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar:/Users/omeryildiz/.m2/repository/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar:/Users/omeryildiz/.m2/repository/com/h2database/h2/2.2.224/h2-2.2.224.jar:/Users/omeryildiz/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/omeryildiz/.m2/repository/org/modelmapper/modelmapper/3.0.0/modelmapper-3.0.0.jar:"/>
@@ -33,7 +33,7 @@
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/target/surefire/surefirebooter-20240810012408447_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/target/surefire/surefirebooter-20240810015332733_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21+35-LTS-2513"/>
@@ -52,7 +52,7 @@
     <property name="user.dir" value="/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="73891"/>
+    <property name="PID" value="76102"/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/omeryildiz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
@@ -64,9 +64,9 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testThatGetUserReturnsHttpStatus404WhenNoAuthorExists" classname="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="0.068">
-    <system-out><![CDATA[2024-08-10T01:24:14.117+03:00  INFO 73891 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.omery.projectAtm.controller.UserControllerIntegrationTest]: UserControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-08-10T01:24:14.128+03:00  INFO 73891 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.omery.projectAtm.ProjectAtmApplication for test class com.omery.projectAtm.controller.UserControllerIntegrationTest
+  <testcase name="testThatGetUserReturnsHttpStatus404WhenNoAuthorExists" classname="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="0.08">
+    <system-out><![CDATA[2024-08-10T01:53:36.456+03:00  INFO 76102 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.omery.projectAtm.controller.UserControllerIntegrationTest]: UserControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-10T01:53:36.467+03:00  INFO 76102 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.omery.projectAtm.ProjectAtmApplication for test class com.omery.projectAtm.controller.UserControllerIntegrationTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -76,22 +76,20 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.2)
 
-2024-08-10T01:24:14.150+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Starting UserControllerIntegrationTest using Java 21 with PID 73891 (started by omeryildiz in /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend)
-2024-08-10T01:24:14.150+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : The following 1 profile is active: "test"
-2024-08-10T01:24:14.263+03:00  INFO 73891 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-10T01:24:14.275+03:00  INFO 73891 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
-2024-08-10T01:24:14.362+03:00  INFO 73891 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-10T01:24:14.363+03:00  INFO 73891 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-08-10T01:24:14.365+03:00  INFO 73891 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-10T01:24:14.366+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2024-08-10T01:24:14.368+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:public user=POSTGRES
-2024-08-10T01:24:14.368+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2024-08-10T01:24:14.368+03:00  WARN 73891 --- [           main] org.hibernate.dialect.Dialect            : HHH000511: The 2.2.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
-2024-08-10T01:24:14.368+03:00  WARN 73891 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-08-10T01:24:14.403+03:00  INFO 73891 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-Hibernate: alter table if exists accounts drop constraint if exists FKnjuop33mo69pd79ctplkck40n
-Hibernate: drop table if exists accounts cascade
-Hibernate: drop table if exists users cascade
+2024-08-10T01:53:36.486+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Starting UserControllerIntegrationTest using Java 21 with PID 76102 (started by omeryildiz in /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend)
+2024-08-10T01:53:36.487+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : The following 1 profile is active: "test"
+2024-08-10T01:53:36.588+03:00  INFO 76102 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-10T01:53:36.594+03:00  INFO 76102 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
+2024-08-10T01:53:36.643+03:00  INFO 76102 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-10T01:53:36.645+03:00  INFO 76102 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-10T01:53:36.647+03:00  INFO 76102 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-10T01:53:36.648+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-08-10T01:53:36.649+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:public user=POSTGRES
+2024-08-10T01:53:36.649+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-08-10T01:53:36.650+03:00  WARN 76102 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-10T01:53:36.676+03:00  INFO 76102 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists accounts cascade 
+Hibernate: drop table if exists users cascade 
 Hibernate: drop sequence if exists acc_id_seq
 Hibernate: drop sequence if exists user_id_seq
 Hibernate: create sequence acc_id_seq start with 1 increment by 50
@@ -99,19 +97,19 @@ Hibernate: create sequence user_id_seq start with 1 increment by 50
 Hibernate: create table accounts (acc_id bigint not null, total_credit bigint not null, user_id bigint not null, primary key (acc_id))
 Hibernate: create table users (id bigint not null, email varchar(255) not null unique, first_name varchar(255) not null, last_name varchar(255) not null, password varchar(255) not null, primary key (id))
 Hibernate: alter table if exists accounts add constraint FKnjuop33mo69pd79ctplkck40n foreign key (user_id) references users
-2024-08-10T01:24:14.408+03:00  INFO 73891 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-10T01:24:14.509+03:00  WARN 73891 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-10T01:24:14.612+03:00  INFO 73891 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-08-10T01:24:14.612+03:00  INFO 73891 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-08-10T01:24:14.614+03:00  INFO 73891 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-08-10T01:24:14.622+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Started UserControllerIntegrationTest in 0.491 seconds (process running for 6.121)
+2024-08-10T01:53:36.680+03:00  INFO 76102 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-10T01:53:36.744+03:00  WARN 76102 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-10T01:53:36.833+03:00  INFO 76102 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-08-10T01:53:36.833+03:00  INFO 76102 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-10T01:53:36.834+03:00  INFO 76102 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-08-10T01:53:36.841+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Started UserControllerIntegrationTest in 0.371 seconds (process running for 4.038)
 Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password from users ue1_0 where ue1_0.id=?
-2024-08-10T01:24:14.693+03:00  INFO 73891 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-10T01:24:14.693+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2024-08-10T01:24:14.694+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-08-10T01:53:36.922+03:00  INFO 76102 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-10T01:53:36.922+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-08-10T01:53:36.923+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatListUsersReturnsListOfAuthors" classname="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="0.118">
+  <testcase name="testThatListUsersReturnsListOfAuthors" classname="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="0.074">
     <system-out><![CDATA[
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -121,22 +119,20 @@ Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.pa
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.2)
 
-2024-08-10T01:24:14.712+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Starting UserControllerIntegrationTest using Java 21 with PID 73891 (started by omeryildiz in /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend)
-2024-08-10T01:24:14.712+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : The following 1 profile is active: "test"
-2024-08-10T01:24:14.806+03:00  INFO 73891 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-10T01:24:14.812+03:00  INFO 73891 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
-2024-08-10T01:24:14.860+03:00  INFO 73891 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-10T01:24:14.861+03:00  INFO 73891 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-08-10T01:24:14.863+03:00  INFO 73891 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-10T01:24:14.863+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2024-08-10T01:24:14.865+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:public user=POSTGRES
-2024-08-10T01:24:14.865+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2024-08-10T01:24:14.865+03:00  WARN 73891 --- [           main] org.hibernate.dialect.Dialect            : HHH000511: The 2.2.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
-2024-08-10T01:24:14.865+03:00  WARN 73891 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-08-10T01:24:14.893+03:00  INFO 73891 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-Hibernate: alter table if exists accounts drop constraint if exists FKnjuop33mo69pd79ctplkck40n
-Hibernate: drop table if exists accounts cascade
-Hibernate: drop table if exists users cascade
+2024-08-10T01:53:36.938+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Starting UserControllerIntegrationTest using Java 21 with PID 76102 (started by omeryildiz in /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend)
+2024-08-10T01:53:36.938+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : The following 1 profile is active: "test"
+2024-08-10T01:53:37.009+03:00  INFO 76102 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-10T01:53:37.016+03:00  INFO 76102 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
+2024-08-10T01:53:37.066+03:00  INFO 76102 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-10T01:53:37.068+03:00  INFO 76102 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-10T01:53:37.069+03:00  INFO 76102 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-10T01:53:37.070+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-08-10T01:53:37.072+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:public user=POSTGRES
+2024-08-10T01:53:37.072+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-08-10T01:53:37.072+03:00  WARN 76102 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-10T01:53:37.108+03:00  INFO 76102 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists accounts cascade 
+Hibernate: drop table if exists users cascade 
 Hibernate: drop sequence if exists acc_id_seq
 Hibernate: drop sequence if exists user_id_seq
 Hibernate: create sequence acc_id_seq start with 1 increment by 50
@@ -144,22 +140,22 @@ Hibernate: create sequence user_id_seq start with 1 increment by 50
 Hibernate: create table accounts (acc_id bigint not null, total_credit bigint not null, user_id bigint not null, primary key (acc_id))
 Hibernate: create table users (id bigint not null, email varchar(255) not null unique, first_name varchar(255) not null, last_name varchar(255) not null, password varchar(255) not null, primary key (id))
 Hibernate: alter table if exists accounts add constraint FKnjuop33mo69pd79ctplkck40n foreign key (user_id) references users
-2024-08-10T01:24:14.898+03:00  INFO 73891 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-10T01:24:14.962+03:00  WARN 73891 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-10T01:24:15.036+03:00  INFO 73891 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-08-10T01:24:15.036+03:00  INFO 73891 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-08-10T01:24:15.036+03:00  INFO 73891 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-08-10T01:24:15.042+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Started UserControllerIntegrationTest in 0.347 seconds (process running for 6.541)
+2024-08-10T01:53:37.112+03:00  INFO 76102 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-10T01:53:37.171+03:00  WARN 76102 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-10T01:53:37.237+03:00  INFO 76102 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-08-10T01:53:37.237+03:00  INFO 76102 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-10T01:53:37.237+03:00  INFO 76102 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-08-10T01:53:37.242+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Started UserControllerIntegrationTest in 0.318 seconds (process running for 4.44)
 Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password from users ue1_0 where ue1_0.id=?
-Hibernate: select nextval('user_id_seq')
+Hibernate: select next value for user_id_seq
 Hibernate: insert into users (email,first_name,last_name,password,id) values (?,?,?,?,?)
 Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password from users ue1_0
-2024-08-10T01:24:15.160+03:00  INFO 73891 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-10T01:24:15.160+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
-2024-08-10T01:24:15.161+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-08-10T01:53:37.316+03:00  INFO 76102 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-10T01:53:37.317+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-08-10T01:53:37.317+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatDeleteUserRemovesUser" classname="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="0.064">
+  <testcase name="testThatDeleteUserRemovesUser" classname="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="0.059">
     <system-out><![CDATA[
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -169,22 +165,20 @@ Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.pa
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.2)
 
-2024-08-10T01:24:15.179+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Starting UserControllerIntegrationTest using Java 21 with PID 73891 (started by omeryildiz in /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend)
-2024-08-10T01:24:15.180+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : The following 1 profile is active: "test"
-2024-08-10T01:24:15.267+03:00  INFO 73891 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-10T01:24:15.274+03:00  INFO 73891 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
-2024-08-10T01:24:15.323+03:00  INFO 73891 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-10T01:24:15.324+03:00  INFO 73891 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-08-10T01:24:15.326+03:00  INFO 73891 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-10T01:24:15.326+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
-2024-08-10T01:24:15.328+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:public user=POSTGRES
-2024-08-10T01:24:15.328+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
-2024-08-10T01:24:15.328+03:00  WARN 73891 --- [           main] org.hibernate.dialect.Dialect            : HHH000511: The 2.2.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
-2024-08-10T01:24:15.328+03:00  WARN 73891 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-08-10T01:24:15.355+03:00  INFO 73891 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-Hibernate: alter table if exists accounts drop constraint if exists FKnjuop33mo69pd79ctplkck40n
-Hibernate: drop table if exists accounts cascade
-Hibernate: drop table if exists users cascade
+2024-08-10T01:53:37.330+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Starting UserControllerIntegrationTest using Java 21 with PID 76102 (started by omeryildiz in /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend)
+2024-08-10T01:53:37.330+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : The following 1 profile is active: "test"
+2024-08-10T01:53:37.400+03:00  INFO 76102 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-10T01:53:37.405+03:00  INFO 76102 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2024-08-10T01:53:37.438+03:00  INFO 76102 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-10T01:53:37.439+03:00  INFO 76102 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-10T01:53:37.440+03:00  INFO 76102 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-10T01:53:37.441+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-08-10T01:53:37.442+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:public user=POSTGRES
+2024-08-10T01:53:37.442+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-08-10T01:53:37.442+03:00  WARN 76102 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-10T01:53:37.465+03:00  INFO 76102 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists accounts cascade 
+Hibernate: drop table if exists users cascade 
 Hibernate: drop sequence if exists acc_id_seq
 Hibernate: drop sequence if exists user_id_seq
 Hibernate: create sequence acc_id_seq start with 1 increment by 50
@@ -192,26 +186,26 @@ Hibernate: create sequence user_id_seq start with 1 increment by 50
 Hibernate: create table accounts (acc_id bigint not null, total_credit bigint not null, user_id bigint not null, primary key (acc_id))
 Hibernate: create table users (id bigint not null, email varchar(255) not null unique, first_name varchar(255) not null, last_name varchar(255) not null, password varchar(255) not null, primary key (id))
 Hibernate: alter table if exists accounts add constraint FKnjuop33mo69pd79ctplkck40n foreign key (user_id) references users
-2024-08-10T01:24:15.359+03:00  INFO 73891 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-10T01:24:15.426+03:00  WARN 73891 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-10T01:24:15.481+03:00  INFO 73891 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-08-10T01:24:15.481+03:00  INFO 73891 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-08-10T01:24:15.481+03:00  INFO 73891 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-08-10T01:24:15.486+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Started UserControllerIntegrationTest in 0.323 seconds (process running for 6.985)
+2024-08-10T01:53:37.469+03:00  INFO 76102 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-10T01:53:37.519+03:00  WARN 76102 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-10T01:53:37.567+03:00  INFO 76102 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-08-10T01:53:37.567+03:00  INFO 76102 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-10T01:53:37.568+03:00  INFO 76102 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-08-10T01:53:37.572+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Started UserControllerIntegrationTest in 0.253 seconds (process running for 4.77)
 Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password from users ue1_0 where ue1_0.id=?
-Hibernate: select nextval('user_id_seq')
+Hibernate: select next value for user_id_seq
 Hibernate: insert into users (email,first_name,last_name,password,id) values (?,?,?,?,?)
 Hibernate: select count(*) from users ue1_0 where ue1_0.id=?
 Hibernate: select ae1_0.acc_id,ae1_0.total_credit,ae1_0.user_id from accounts ae1_0 where ae1_0.user_id=?
 Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password from users ue1_0 where ue1_0.id=?
 Hibernate: delete from users where id=?
 Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password from users ue1_0 where ue1_0.id=?
-2024-08-10T01:24:15.551+03:00  INFO 73891 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-10T01:24:15.551+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
-2024-08-10T01:24:15.552+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-08-10T01:53:37.624+03:00  INFO 76102 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-10T01:53:37.624+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-08-10T01:53:37.633+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatPartialUpdateExistingAuthorReturnsHttpStatus20Ok" classname="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="0.052">
+  <testcase name="testThatPartialUpdateExistingAuthorReturnsHttpStatus20Ok" classname="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="0.046">
     <system-out><![CDATA[
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -221,22 +215,20 @@ Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.pa
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.2)
 
-2024-08-10T01:24:15.569+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Starting UserControllerIntegrationTest using Java 21 with PID 73891 (started by omeryildiz in /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend)
-2024-08-10T01:24:15.569+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : The following 1 profile is active: "test"
-2024-08-10T01:24:15.664+03:00  INFO 73891 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-10T01:24:15.671+03:00  INFO 73891 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
-2024-08-10T01:24:15.723+03:00  INFO 73891 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-10T01:24:15.724+03:00  INFO 73891 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-08-10T01:24:15.726+03:00  INFO 73891 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-10T01:24:15.727+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
-2024-08-10T01:24:15.728+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection conn40: url=jdbc:h2:mem:public user=POSTGRES
-2024-08-10T01:24:15.729+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
-2024-08-10T01:24:15.729+03:00  WARN 73891 --- [           main] org.hibernate.dialect.Dialect            : HHH000511: The 2.2.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
-2024-08-10T01:24:15.729+03:00  WARN 73891 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-08-10T01:24:15.757+03:00  INFO 73891 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-Hibernate: alter table if exists accounts drop constraint if exists FKnjuop33mo69pd79ctplkck40n
-Hibernate: drop table if exists accounts cascade
-Hibernate: drop table if exists users cascade
+2024-08-10T01:53:37.645+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Starting UserControllerIntegrationTest using Java 21 with PID 76102 (started by omeryildiz in /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend)
+2024-08-10T01:53:37.645+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : The following 1 profile is active: "test"
+2024-08-10T01:53:37.713+03:00  INFO 76102 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-10T01:53:37.717+03:00  INFO 76102 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2024-08-10T01:53:37.748+03:00  INFO 76102 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-10T01:53:37.750+03:00  INFO 76102 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-10T01:53:37.751+03:00  INFO 76102 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-10T01:53:37.752+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-08-10T01:53:37.753+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection conn38: url=jdbc:h2:mem:public user=POSTGRES
+2024-08-10T01:53:37.753+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-08-10T01:53:37.754+03:00  WARN 76102 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-10T01:53:37.777+03:00  INFO 76102 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists accounts cascade 
+Hibernate: drop table if exists users cascade 
 Hibernate: drop sequence if exists acc_id_seq
 Hibernate: drop sequence if exists user_id_seq
 Hibernate: create sequence acc_id_seq start with 1 increment by 50
@@ -244,24 +236,24 @@ Hibernate: create sequence user_id_seq start with 1 increment by 50
 Hibernate: create table accounts (acc_id bigint not null, total_credit bigint not null, user_id bigint not null, primary key (acc_id))
 Hibernate: create table users (id bigint not null, email varchar(255) not null unique, first_name varchar(255) not null, last_name varchar(255) not null, password varchar(255) not null, primary key (id))
 Hibernate: alter table if exists accounts add constraint FKnjuop33mo69pd79ctplkck40n foreign key (user_id) references users
-2024-08-10T01:24:15.761+03:00  INFO 73891 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-10T01:24:15.807+03:00  WARN 73891 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-10T01:24:15.853+03:00  INFO 73891 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-08-10T01:24:15.853+03:00  INFO 73891 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-08-10T01:24:15.853+03:00  INFO 73891 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-08-10T01:24:15.857+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Started UserControllerIntegrationTest in 0.303 seconds (process running for 7.356)
+2024-08-10T01:53:37.780+03:00  INFO 76102 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-10T01:53:37.850+03:00  WARN 76102 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-10T01:53:37.894+03:00  INFO 76102 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-08-10T01:53:37.894+03:00  INFO 76102 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-10T01:53:37.895+03:00  INFO 76102 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-08-10T01:53:37.898+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Started UserControllerIntegrationTest in 0.264 seconds (process running for 5.096)
 Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password from users ue1_0 where ue1_0.id=?
-Hibernate: select nextval('user_id_seq')
+Hibernate: select next value for user_id_seq
 Hibernate: insert into users (email,first_name,last_name,password,id) values (?,?,?,?,?)
 Hibernate: select count(*) from users ue1_0 where ue1_0.id=?
 Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password from users ue1_0 where ue1_0.id=?
 Hibernate: update users set email=?,first_name=?,last_name=?,password=? where id=?
-2024-08-10T01:24:15.907+03:00  INFO 73891 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-10T01:24:15.908+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
-2024-08-10T01:24:15.911+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-08-10T01:53:37.938+03:00  INFO 76102 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-10T01:53:37.938+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-08-10T01:53:37.945+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatFullUpdateUserReturnsHttpStatus4200WhenAuthorExists" classname="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="0.023">
+  <testcase name="testThatFullUpdateUserReturnsHttpStatus4200WhenAuthorExists" classname="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="0.021">
     <system-out><![CDATA[
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -271,22 +263,20 @@ Hibernate: update users set email=?,first_name=?,last_name=?,password=? where id
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.2)
 
-2024-08-10T01:24:15.927+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Starting UserControllerIntegrationTest using Java 21 with PID 73891 (started by omeryildiz in /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend)
-2024-08-10T01:24:15.927+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : The following 1 profile is active: "test"
-2024-08-10T01:24:16.016+03:00  INFO 73891 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-10T01:24:16.022+03:00  INFO 73891 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
-2024-08-10T01:24:16.065+03:00  INFO 73891 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-10T01:24:16.067+03:00  INFO 73891 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-08-10T01:24:16.068+03:00  INFO 73891 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-10T01:24:16.069+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
-2024-08-10T01:24:16.070+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection conn47: url=jdbc:h2:mem:public user=POSTGRES
-2024-08-10T01:24:16.070+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
-2024-08-10T01:24:16.071+03:00  WARN 73891 --- [           main] org.hibernate.dialect.Dialect            : HHH000511: The 2.2.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
-2024-08-10T01:24:16.071+03:00  WARN 73891 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-08-10T01:24:16.095+03:00  INFO 73891 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-Hibernate: alter table if exists accounts drop constraint if exists FKnjuop33mo69pd79ctplkck40n
-Hibernate: drop table if exists accounts cascade
-Hibernate: drop table if exists users cascade
+2024-08-10T01:53:37.957+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Starting UserControllerIntegrationTest using Java 21 with PID 76102 (started by omeryildiz in /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend)
+2024-08-10T01:53:37.957+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : The following 1 profile is active: "test"
+2024-08-10T01:53:38.021+03:00  INFO 76102 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-10T01:53:38.026+03:00  INFO 76102 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2024-08-10T01:53:38.059+03:00  INFO 76102 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-10T01:53:38.060+03:00  INFO 76102 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-10T01:53:38.061+03:00  INFO 76102 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-10T01:53:38.061+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-08-10T01:53:38.062+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection conn46: url=jdbc:h2:mem:public user=POSTGRES
+2024-08-10T01:53:38.063+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-08-10T01:53:38.063+03:00  WARN 76102 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-10T01:53:38.085+03:00  INFO 76102 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists accounts cascade 
+Hibernate: drop table if exists users cascade 
 Hibernate: drop sequence if exists acc_id_seq
 Hibernate: drop sequence if exists user_id_seq
 Hibernate: create sequence acc_id_seq start with 1 increment by 50
@@ -294,23 +284,23 @@ Hibernate: create sequence user_id_seq start with 1 increment by 50
 Hibernate: create table accounts (acc_id bigint not null, total_credit bigint not null, user_id bigint not null, primary key (acc_id))
 Hibernate: create table users (id bigint not null, email varchar(255) not null unique, first_name varchar(255) not null, last_name varchar(255) not null, password varchar(255) not null, primary key (id))
 Hibernate: alter table if exists accounts add constraint FKnjuop33mo69pd79ctplkck40n foreign key (user_id) references users
-2024-08-10T01:24:16.099+03:00  INFO 73891 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-10T01:24:16.148+03:00  WARN 73891 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-10T01:24:16.199+03:00  INFO 73891 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-08-10T01:24:16.199+03:00  INFO 73891 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-08-10T01:24:16.199+03:00  INFO 73891 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-08-10T01:24:16.203+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Started UserControllerIntegrationTest in 0.291 seconds (process running for 7.702)
+2024-08-10T01:53:38.088+03:00  INFO 76102 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-10T01:53:38.127+03:00  WARN 76102 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-10T01:53:38.167+03:00  INFO 76102 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-08-10T01:53:38.167+03:00  INFO 76102 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-10T01:53:38.168+03:00  INFO 76102 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-08-10T01:53:38.171+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Started UserControllerIntegrationTest in 0.224 seconds (process running for 5.369)
 Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password from users ue1_0 where ue1_0.id=?
-Hibernate: select nextval('user_id_seq')
+Hibernate: select next value for user_id_seq
 Hibernate: insert into users (email,first_name,last_name,password,id) values (?,?,?,?,?)
 Hibernate: select count(*) from users ue1_0 where ue1_0.id=?
 Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password from users ue1_0 where ue1_0.id=?
-2024-08-10T01:24:16.220+03:00  INFO 73891 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-10T01:24:16.220+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
-2024-08-10T01:24:16.227+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-08-10T01:53:38.186+03:00  INFO 76102 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-10T01:53:38.186+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-08-10T01:53:38.194+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatGetUserReturnsWhenUserExist" classname="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="0.013">
+  <testcase name="testThatGetUserReturnsWhenUserExist" classname="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="0.016">
     <system-out><![CDATA[
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -320,22 +310,20 @@ Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.pa
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.2)
 
-2024-08-10T01:24:16.241+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Starting UserControllerIntegrationTest using Java 21 with PID 73891 (started by omeryildiz in /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend)
-2024-08-10T01:24:16.241+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : The following 1 profile is active: "test"
-2024-08-10T01:24:16.314+03:00  INFO 73891 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-10T01:24:16.319+03:00  INFO 73891 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
-2024-08-10T01:24:16.351+03:00  INFO 73891 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-10T01:24:16.352+03:00  INFO 73891 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-08-10T01:24:16.353+03:00  INFO 73891 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-10T01:24:16.354+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
-2024-08-10T01:24:16.355+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection conn52: url=jdbc:h2:mem:public user=POSTGRES
-2024-08-10T01:24:16.355+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
-2024-08-10T01:24:16.355+03:00  WARN 73891 --- [           main] org.hibernate.dialect.Dialect            : HHH000511: The 2.2.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
-2024-08-10T01:24:16.355+03:00  WARN 73891 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-08-10T01:24:16.379+03:00  INFO 73891 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-Hibernate: alter table if exists accounts drop constraint if exists FKnjuop33mo69pd79ctplkck40n
-Hibernate: drop table if exists accounts cascade
-Hibernate: drop table if exists users cascade
+2024-08-10T01:53:38.205+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Starting UserControllerIntegrationTest using Java 21 with PID 76102 (started by omeryildiz in /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend)
+2024-08-10T01:53:38.205+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : The following 1 profile is active: "test"
+2024-08-10T01:53:38.274+03:00  INFO 76102 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-10T01:53:38.279+03:00  INFO 76102 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2024-08-10T01:53:38.312+03:00  INFO 76102 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-10T01:53:38.313+03:00  INFO 76102 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-10T01:53:38.314+03:00  INFO 76102 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-10T01:53:38.315+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2024-08-10T01:53:38.316+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection conn49: url=jdbc:h2:mem:public user=POSTGRES
+2024-08-10T01:53:38.316+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2024-08-10T01:53:38.316+03:00  WARN 76102 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-10T01:53:38.339+03:00  INFO 76102 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists accounts cascade 
+Hibernate: drop table if exists users cascade 
 Hibernate: drop sequence if exists acc_id_seq
 Hibernate: drop sequence if exists user_id_seq
 Hibernate: create sequence acc_id_seq start with 1 increment by 50
@@ -343,22 +331,22 @@ Hibernate: create sequence user_id_seq start with 1 increment by 50
 Hibernate: create table accounts (acc_id bigint not null, total_credit bigint not null, user_id bigint not null, primary key (acc_id))
 Hibernate: create table users (id bigint not null, email varchar(255) not null unique, first_name varchar(255) not null, last_name varchar(255) not null, password varchar(255) not null, primary key (id))
 Hibernate: alter table if exists accounts add constraint FKnjuop33mo69pd79ctplkck40n foreign key (user_id) references users
-2024-08-10T01:24:16.383+03:00  INFO 73891 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-10T01:24:16.424+03:00  WARN 73891 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-10T01:24:16.465+03:00  INFO 73891 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-08-10T01:24:16.465+03:00  INFO 73891 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-08-10T01:24:16.465+03:00  INFO 73891 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-08-10T01:24:16.469+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Started UserControllerIntegrationTest in 0.24 seconds (process running for 7.968)
+2024-08-10T01:53:38.343+03:00  INFO 76102 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-10T01:53:38.385+03:00  WARN 76102 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-10T01:53:38.425+03:00  INFO 76102 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-08-10T01:53:38.426+03:00  INFO 76102 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-10T01:53:38.426+03:00  INFO 76102 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-08-10T01:53:38.430+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Started UserControllerIntegrationTest in 0.235 seconds (process running for 5.627)
 Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password from users ue1_0 where ue1_0.id=?
-Hibernate: select nextval('user_id_seq')
+Hibernate: select next value for user_id_seq
 Hibernate: insert into users (email,first_name,last_name,password,id) values (?,?,?,?,?)
 Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password from users ue1_0 where ue1_0.id=?
-2024-08-10T01:24:16.482+03:00  INFO 73891 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-10T01:24:16.482+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
-2024-08-10T01:24:16.484+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2024-08-10T01:53:38.442+03:00  INFO 76102 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-10T01:53:38.442+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2024-08-10T01:53:38.447+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatCreateUserSuccessfullyReturnsHttp201Created" classname="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="0.014">
+  <testcase name="testThatCreateUserSuccessfullyReturnsHttp201Created" classname="com.omery.projectAtm.controller.UserControllerIntegrationTest" time="0.019">
     <system-out><![CDATA[
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -368,22 +356,20 @@ Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.pa
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.2)
 
-2024-08-10T01:24:16.499+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Starting UserControllerIntegrationTest using Java 21 with PID 73891 (started by omeryildiz in /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend)
-2024-08-10T01:24:16.500+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : The following 1 profile is active: "test"
-2024-08-10T01:24:16.567+03:00  INFO 73891 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-10T01:24:16.573+03:00  INFO 73891 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
-2024-08-10T01:24:16.624+03:00  INFO 73891 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-10T01:24:16.625+03:00  INFO 73891 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-08-10T01:24:16.627+03:00  INFO 73891 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-10T01:24:16.627+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
-2024-08-10T01:24:16.629+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection conn55: url=jdbc:h2:mem:public user=POSTGRES
-2024-08-10T01:24:16.629+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
-2024-08-10T01:24:16.629+03:00  WARN 73891 --- [           main] org.hibernate.dialect.Dialect            : HHH000511: The 2.2.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
-2024-08-10T01:24:16.629+03:00  WARN 73891 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-08-10T01:24:16.655+03:00  INFO 73891 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-Hibernate: alter table if exists accounts drop constraint if exists FKnjuop33mo69pd79ctplkck40n
-Hibernate: drop table if exists accounts cascade
-Hibernate: drop table if exists users cascade
+2024-08-10T01:53:38.459+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Starting UserControllerIntegrationTest using Java 21 with PID 76102 (started by omeryildiz in /Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend)
+2024-08-10T01:53:38.460+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : The following 1 profile is active: "test"
+2024-08-10T01:53:38.537+03:00  INFO 76102 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-10T01:53:38.542+03:00  INFO 76102 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2024-08-10T01:53:38.578+03:00  INFO 76102 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-10T01:53:38.579+03:00  INFO 76102 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-10T01:53:38.580+03:00  INFO 76102 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-10T01:53:38.581+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-08-10T01:53:38.582+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection conn52: url=jdbc:h2:mem:public user=POSTGRES
+2024-08-10T01:53:38.582+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-08-10T01:53:38.583+03:00  WARN 76102 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-10T01:53:38.605+03:00  INFO 76102 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists accounts cascade 
+Hibernate: drop table if exists users cascade 
 Hibernate: drop sequence if exists acc_id_seq
 Hibernate: drop sequence if exists user_id_seq
 Hibernate: create sequence acc_id_seq start with 1 increment by 50
@@ -391,18 +377,18 @@ Hibernate: create sequence user_id_seq start with 1 increment by 50
 Hibernate: create table accounts (acc_id bigint not null, total_credit bigint not null, user_id bigint not null, primary key (acc_id))
 Hibernate: create table users (id bigint not null, email varchar(255) not null unique, first_name varchar(255) not null, last_name varchar(255) not null, password varchar(255) not null, primary key (id))
 Hibernate: alter table if exists accounts add constraint FKnjuop33mo69pd79ctplkck40n foreign key (user_id) references users
-2024-08-10T01:24:16.806+03:00  INFO 73891 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-10T01:24:16.843+03:00  WARN 73891 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-10T01:24:16.877+03:00  INFO 73891 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-08-10T01:24:16.877+03:00  INFO 73891 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-08-10T01:24:16.877+03:00  INFO 73891 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-08-10T01:24:16.881+03:00  INFO 73891 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Started UserControllerIntegrationTest in 0.393 seconds (process running for 8.38)
+2024-08-10T01:53:38.752+03:00  INFO 76102 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-10T01:53:38.788+03:00  WARN 76102 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-10T01:53:38.823+03:00  INFO 76102 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-08-10T01:53:38.823+03:00  INFO 76102 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-10T01:53:38.824+03:00  INFO 76102 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-08-10T01:53:38.827+03:00  INFO 76102 --- [           main] c.o.p.c.UserControllerIntegrationTest    : Started UserControllerIntegrationTest in 0.379 seconds (process running for 6.025)
 Hibernate: select ue1_0.id,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password from users ue1_0 where ue1_0.id=?
-Hibernate: select nextval('user_id_seq')
+Hibernate: select next value for user_id_seq
 Hibernate: insert into users (email,first_name,last_name,password,id) values (?,?,?,?,?)
-2024-08-10T01:24:16.895+03:00  INFO 73891 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-10T01:24:16.895+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
-2024-08-10T01:24:16.895+03:00  INFO 73891 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-08-10T01:53:38.840+03:00  INFO 76102 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-10T01:53:38.840+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-08-10T01:53:38.848+03:00  INFO 76102 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
 ]]></system-out>
   </testcase>
 </testsuite>
