@@ -14,18 +14,14 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RestController
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin(origins = "http://67.207.86.85:3000")
 public class UserController {
     private final UserService userService;
-    private final AccountService accountService;
-
     private Mapper<UserEntity, UserDto> userMapper;
 
-    public UserController(UserService userService, Mapper<UserEntity, UserDto> userMapper,AccountService accountService) {
+    public UserController(UserService userService, Mapper<UserEntity, UserDto> userMapper) {
         this.userService = userService;
         this.userMapper = userMapper;
-        this.accountService = accountService;
-
     }
 
     @PostMapping(path = "/users")
