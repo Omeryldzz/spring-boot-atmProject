@@ -51,7 +51,12 @@
     - Integration tests utilize MockMvc for simulating HTTP requests and validating responses.
     - Each test method resets the application context to ensure independence between tests.
 - **Continuous Integration:** Integration with CI/CD pipelines (e.g., GitHub Actions) for automated testing and deployment.
+## Deployment
 
+- **Deployment on DigitalOcean:**
+  - Deployed using a DigitalOcean droplet for hosting both frontend and backend applications.
+  - Ensures scalable and reliable performance with cloud infrastructure.
+    
 ## Choose the Envirpnment
 - There are two branches at the repository if you will work your on local machine choose localhost branch to clone.On 
 
