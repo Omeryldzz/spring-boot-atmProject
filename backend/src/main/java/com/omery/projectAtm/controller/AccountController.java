@@ -16,7 +16,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RestController
-@CrossOrigin(origins = "http://67.207.86.85:3000")
+@CrossOrigin("http://67.207.86.85:3000")
 
 public class AccountController {
 

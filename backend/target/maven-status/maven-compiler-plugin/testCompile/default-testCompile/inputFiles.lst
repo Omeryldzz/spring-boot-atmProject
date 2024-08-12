@@ -1,5 +1,5 @@
-/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/test/java/com/omery/projectAtm/controller/AccountControllerIntegrationtest.java
-/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/test/java/com/omery/projectAtm/TestDataUtil.java
-/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/test/java/com/omery/projectAtm/ProjectAtmApplicationTests.java
-/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/test/java/com/omery/projectAtm/repositories/UserRepoIntegrationTest.java
-/Users/omeryildiz/Documents/GitHub/spring-boot-atmProject/backend/src/test/java/com/omery/projectAtm/controller/UserControllerIntegrationTest.java
+/root/spring-boot-atmProject/backend/src/test/java/com/omery/projectAtm/controller/UserControllerIntegrationTest.java
+/root/spring-boot-atmProject/backend/src/test/java/com/omery/projectAtm/controller/AccountControllerIntegrationtest.java
+/root/spring-boot-atmProject/backend/src/test/java/com/omery/projectAtm/ProjectAtmApplicationTests.java
+/root/spring-boot-atmProject/backend/src/test/java/com/omery/projectAtm/repositories/UserRepoIntegrationTest.java
+/root/spring-boot-atmProject/backend/src/test/java/com/omery/projectAtm/TestDataUtil.java

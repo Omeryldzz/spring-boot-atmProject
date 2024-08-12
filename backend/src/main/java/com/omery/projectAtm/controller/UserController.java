@@ -14,7 +14,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RestController
-@CrossOrigin(origins = "http://67.207.86.85:3000")
+@CrossOrigin("http://67.207.86.85:3000")
 public class UserController {
     private final UserService userService;
     private Mapper<UserEntity, UserDto> userMapper;
@@ -24,7 +24,7 @@ public class UserController {
         this.userMapper = userMapper;
     }
 
-    @PostMapping(path = "/users")
+    @PostMapping(path = "/users/new")
     public ResponseEntity<UserDto> createUser(@RequestBody UserDto user) {
         UserEntity userEntity = userMapper.mapFrom(user);
         UserEntity savedUserEntity = userService.save(userEntity);
