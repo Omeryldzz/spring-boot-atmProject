@@ -27,7 +27,7 @@
         }
         ```
   - Customizable CORS settings to restrict or allow access based on the deployment environment.
-  - API's that will be uses can be specified at .allowedOrigins("*") method.
+  - 3rd party API's can be specified at .allowedOrigins("*") method.
   - Enables smooth interaction between the frontend served on one domain and the backend on another.
 - **Integration Testing:** Comprehensive integration tests using JUnit and Spring's testing framework to ensure API reliability and correctness.
     - **User Management:**
