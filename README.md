@@ -31,15 +31,21 @@
   - Enables smooth interaction between the frontend served on one domain and the backend on another.
 - **Integration Testing:** Comprehensive integration tests using JUnit and Spring's testing framework to ensure API reliability and correctness.
     - **User Management:**
+        - ![menu](photos/Screen%20Shot%202024-08-13%20at%2002.34.28.png)
         - `POST /users/new`: Create a new user.
+        - ![post](photos/Screen%20Shot%202024-08-13%20at%2002.34.58.png)
         - `GET /users`: Retrieve a list of all users.
-        - `GET /users/{id}`: Retrieve details of a specific user.
+        - ![Screenshot 3](photos/Screen%20Shot%202024-08-13%20at%2002.34.45.png)
+
+        - `GET /users/{id}`: Retrieve details of a specific user
         - `PUT /users/{id}`: Fully update an existing user.
         - `PATCH /users/{id}`: Partially update an existing user.
         - `DELETE /users/{id}`: Remove a user and validate the deletion.
     - **Account Management:**
         - `POST /users/{id}/accounts/new`: Create a new account for a user.
+        - ![Screenshot 5](photos/Screen%20Shot%202024-08-13%20at%2002.34.54.png)
         - `GET /users/{id}/accounts`: Retrieve all accounts for a user.
+        - ![Screenshot 4](photos/Screen%20Shot%202024-08-13%20at%2002.34.51.png)
         - `GET /users/{id}/accounts/{accountId}`: Retrieve specific account details.
         - `DELETE /users/{id}/accounts/{accountId}`: Validate account deletion after user removal.
 
@@ -54,10 +60,11 @@
 ## Deployment
 
 - **Deployment on DigitalOcean:**
+   - ![Screenshot 3](photos/Screen%20Shot%202024-08-13%20at%2002.31.45.png)
   - Deployed using a DigitalOcean droplet for hosting both frontend and backend applications.
   - Ensures scalable and reliable performance with cloud infrastructure.
     
-## Choose the Envirpnment
+## Choose the Environment
 - There are two branches at the repository if you will work your on local machine choose localhost branch to clone.On 
 
   ```bash
