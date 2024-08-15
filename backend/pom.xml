@@ -7,6 +7,10 @@
 			<id>github</id>
 			<url>https://maven.pkg.github.com/omeryldzk/spring-boot-atmProject</url>
 		</repository>
+		<snapshotRepository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/omeryldzk/spring-boot-atmProject</url>
+		</snapshotRepository>
 	</distributionManagement>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
