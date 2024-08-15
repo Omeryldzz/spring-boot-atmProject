@@ -35,6 +35,11 @@ jobs:
         fi
 
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+      run: |
+        if [ "${{ github.ref_name }}" == "master" ]; then
+          mvn deploy -s $GITHUB_WORKSPACE/settings.xml --file backend/pom.xml
+        elif [ "${{ github.ref_name }}" == "localhost" ]; then
+          mvn deploy -s $GITHUB_WORKSPACE/settings.xml --file local_backend/pom.xml
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
