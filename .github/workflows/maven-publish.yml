@@ -41,8 +41,7 @@ jobs:
           mvn -X deploy -s $GITHUB_WORKSPACE/settings.xml --file local_backend/pom.xml \
             -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/omeryldzk/spring-boot-atmProjecte
         fi
-  env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
 
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
