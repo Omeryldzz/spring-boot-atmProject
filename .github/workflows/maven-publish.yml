@@ -36,10 +36,10 @@ jobs:
       run: |
         if [ "${{ github.ref_name }}" == "master" ]; then
           mvn -X deploy -s $GITHUB_WORKSPACE/settings.xml --file backend/pom.xml \
-            -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/omeryldzk/spring-boot-atmProjecte
+            -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/omeryldzk/spring-boot-atmProject
         elif [ "${{ github.ref_name }}" == "localhost" ]; then
           mvn -X deploy -s $GITHUB_WORKSPACE/settings.xml --file local_backend/pom.xml \
-            -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/omeryldzk/spring-boot-atmProjecte
+            -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/omeryldzk/spring-boot-atmProject
         fi
   
 
