@@ -51,7 +51,7 @@ public class AccountControllerIntegrationtest {
         String accountJson = objectMapper.writeValueAsString(testAccountEntityA);
 
         mockMvc.perform(
-                MockMvcRequestBuilders.post("/users/1/accounts/new")
+                MockMvcRequestBuilders.post("/users/"+ userEntity.getId()+"/accounts/new")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(accountJson)
         ).andExpect(

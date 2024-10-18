@@ -1,5 +1,6 @@
 package com.omery.projectAtm.domain.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -33,7 +34,8 @@ public class UserEntity {
     @Column(nullable=false)
     private String password;
 
-    @OneToMany(mappedBy = "userEntity", cascade = CascadeType.REMOVE, orphanRemoval = true)
+    @OneToMany(mappedBy = "userEntity", cascade = CascadeType.REMOVE)
+    @JsonIgnore // Ignore this collection to avoid cyclic reference // Account test fixed
     private List<AccountEntity> accounts;
 
 }
