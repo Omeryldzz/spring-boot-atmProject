@@ -51,7 +51,7 @@ public class AccountController {
         }).orElse(new ResponseEntity<>(HttpStatus.NOT_FOUND));
     }
     @DeleteMapping(path = "/users/{id}/accounts/{acc_id}")
-    public ResponseEntity<Void> deleteAccount(@PathVariable("acc_id") Long acc_id) {
+    public ResponseEntity<Void> deleteAccount(@PathVariable("id") Long id,@PathVariable("acc_id") Long acc_id) {
         try {
             if (accountService.isExists(acc_id)) {
             accountService.deleteAccount(acc_id);

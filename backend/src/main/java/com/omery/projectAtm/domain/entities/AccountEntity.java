@@ -24,7 +24,7 @@ public class AccountEntity {
     @Column(nullable=false)
     private Long totalCredit;
 
-    @ManyToOne(cascade = CascadeType.REMOVE)
+    @ManyToOne
     @JoinColumn(name = "user_id", nullable = false)
     private UserEntity userEntity;
 
