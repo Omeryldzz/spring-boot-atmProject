@@ -48,7 +48,8 @@ public class AccountControllerIntegrationtest {
         userService.save(userEntity);
         AccountEntity testAccountEntityA = TestDataUtil.createTestAccountEntityA(userEntity);
         accountService.save(testAccountEntityA,testAccountEntityA.getUserEntity().getId());
-        String accountJson = objectMapper.writeValueAsString(testAccountEntityA);
+        String accountJson;
+        accountJson = objectMapper.writeValueAsString(testAccountEntityA);
 
         mockMvc.perform(
                 MockMvcRequestBuilders.post("/users/1/accounts/new")
@@ -107,5 +108,4 @@ public class AccountControllerIntegrationtest {
         );
     }
 }
-
 

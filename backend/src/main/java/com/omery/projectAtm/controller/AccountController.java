@@ -16,7 +16,6 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RestController
-@CrossOrigin("http://localhost:3000")
 
 public class AccountController {
 
@@ -51,6 +50,21 @@ public class AccountController {
             AccountDto accountDto = accountMapper.mapTo(accountEntity);
             return new ResponseEntity<>(accountDto, HttpStatus.OK);
         }).orElse(new ResponseEntity<>(HttpStatus.NOT_FOUND));
+    }
+    @DeleteMapping(path = "/users/{id}/accounts/{acc_id}")
+    public ResponseEntity<Void> deleteAccount(@PathVariable("id") Long id,@PathVariable("acc_id") Long acc_id) {
+        try {
+            if (accountService.isExists(acc_id)) {
+                accountService.deleteAccount(acc_id);
+                return ResponseEntity.noContent().build();
+            } else {
+                return ResponseEntity.notFound().build();
+            }
+        } catch (Exception e) {
+            // Log the error details
+            System.err.println("Error deleting account: " + e.getMessage());
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 
 }
