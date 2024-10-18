@@ -50,5 +50,20 @@ public class AccountController {
             return new ResponseEntity<>(accountDto, HttpStatus.OK);
         }).orElse(new ResponseEntity<>(HttpStatus.NOT_FOUND));
     }
+    @DeleteMapping(path = "/users/{id}/accounts/{acc_id}")
+    public ResponseEntity<Void> deleteAccount(@PathVariable("acc_id") Long acc_id) {
+        try {
+            if (accountService.isExists(acc_id)) {
+            accountService.deleteAccount(acc_id);
+            return ResponseEntity.noContent().build();
+        } else {
+            return ResponseEntity.notFound().build();
+        }
+    } catch (Exception e) {
+        // Log the error details
+        System.err.println("Error deleting account: " + e.getMessage());
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+    }
+        }
 
-}
+    }
